@@ -1,0 +1,171 @@
+/* Table styling for pets list */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: white;
+    color: #333;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+main {
+  padding: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-bottom: 2rem;
+}
+
+label {
+  margin: 0.5rem 0 0.2rem;
+}
+
+input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.7rem;
+  background-color: #4caf50;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem;
+  background-color: #fff;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body & Font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+header .logo h1 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
+
+header .header-right .login-btn {
+  color: white;
+  text-decoration: none;
+  background-color: #4caf50;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+header .header-right .login-btn:hover {
+  background-color: #45a049;
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 20px;
+}
+
+.left-content,
+.right-content {
+  width: 45%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-content h2,
+.right-content h2 {
+  margin-bottom: 20px;
+}
+
+.left-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.left-content ul li {
+  margin-bottom: 10px;
+}
+
+.register-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.register-btn:hover {
+  background-color: #45a049;
+}
